@@ -17,14 +17,14 @@ A Sample Flask Application With REST APIs
 
 *API Documentation* <br>
 GET REQUEST (Returns the Data From the Current List) <br>
-Endpoint: http://127.0.0.1/api/data <br>
+Endpoint: http://127.0.0.1:5000/api/data <br>
 <br>
 POST REQUEST (Appends the New Values of Data to the List) <br>
-Endpoint: http://127.0.0.1/api/add <br>
+Endpoint: http://127.0.0.1:5000/api/add <br>
 <br>
 PUT REQUEST (Changes the New Values of Data in the List at Given Index of Array) <br>
-Endpoint: http://127.0.0.1/api/change <br>
+Endpoint: http://127.0.0.1:5000/api/change <br>
 <br>
 DELETE REQUEST (Resets All Values in List to 0) <br>
-Endpoint: http://127.0.0.1/api/delete <br>
+Endpoint: http://127.0.0.1:5000/api/delete <br>
 
