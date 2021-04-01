@@ -81,7 +81,7 @@ def add_new_data():
       
    return jsonify({"Values Added":"Check Index Page!"})
 
-# Changes the New Values of Data to the List
+# Changes the New Values of Data in the List at Given Index of Array
 @app.route('/api/change',methods=['PUT',])
 def modify_data():
    data = request.get_json()
@@ -119,7 +119,7 @@ def modify_data():
    return jsonify({"Values Changed":"Check Index Page!"})
 
 
-# Deletes the Entire List
+# Resets All Values in List to 0
 @app.route('/api/delete',methods=['DELETE',])
 def delete_all_data():
    for i in range(0,len(temperature)):
